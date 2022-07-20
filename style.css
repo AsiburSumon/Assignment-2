@@ -311,7 +311,7 @@ body{
 /*---------------
       For Tablet Devices
 ------------------- */
-@media only screen and (min-width: 689px) and (max-width: 992px)
+@media only screen and (min-width: 689px) and (max-width: 991px)
  {
    /*---------------
           Header Section Style
@@ -381,7 +381,7 @@ body{
  /*-----------
           For Desktop
    ---------------- */
- @media only screen and (min-width: 1021px)
+ @media only screen and (min-width: 992px)
  {     
    /*---------------
           View Button Style
