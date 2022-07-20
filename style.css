@@ -43,6 +43,7 @@ body{
     font-size: 15px;
     padding: 10px;
     text-decoration: none;
+    border-radius: 5px;
  }
  /*------------------- 
          Main Section style 
@@ -135,6 +136,22 @@ body{
     color: #161616B2;
  }
 
+ /*-------------
+       View Button style
+ ------------------- */
+ .view-button{
+   margin-bottom: 30px;
+   text-align: center;
+ }
+.view-button a{
+   border-radius: 5px;
+   text-decoration: none;
+   color: #ffff;
+   font-size: 20px;
+   padding: 12px 29px;
+   background-color: #DD0000;
+}
+
  /*-----------
          Footer style 
  ------------*/
@@ -173,4 +190,164 @@ body{
     border-radius: 50%;
     padding: 10px;
  }
+ /*-------------------
+       Media Queries style 
+ -------------------------*/
  
+ /*---------------------
+       For Mobile Devices
+ --------------------- */
+@media only screen and (max-width: 688px) 
+{
+   /* Header Section Start */
+   header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0;
+   }
+   .top-banner{
+      width: 70%;
+      height: 472px;
+      padding-top: 0;
+      display: flex;
+      flex-direction: column;
+   }
+   .banner-details{
+      margin-top: 30px;
+      width: 100%;
+   }
+   .banner-details h1{
+      font-size: 20px;
+      white-space: nowrap;
+      text-align: center;
+   }
+   .banner-details p{
+      margin-top: 20px;
+      margin-left: 25%;
+      width: 50%;
+      font-size: 2vw;
+      white-space: nowrap;
+      overflow: hidden;
+      overflow-x: scroll;
+   }
+   .banner-details a{
+      margin-left: 35%;
+   }
+   .banner-logo{
+      margin-top: 20px;
+      margin-left: 35px;
+   }
+
+   /* Header Section End */
+
+      /* Main Section Start */
+   main{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 130px;
+   }
+   .container{
+      display: flex;
+      flex-direction: column;
+   }
+   .container-left{
+      width: 100%;
+   }
+   .left-contain{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffff;
+      width: 312px;
+      height: 312px;
+   }
+   .left-contain a{
+      border: 1px solid #999797;
+   }
+   .container-right{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 24px;
+      width: 100%;
+   }
+
+   /* Main Section End */
+
+   .view-button{
+      display: none;
+   }
+
+   /* Footerr Section Start */
+   footer{
+      display: flex;
+      flex-direction: column;
+   }
+}
+.footer-info{
+   display: flex;
+   flex-direction: column;
+}
+/* Footer Section End */
+
+
+/*---------------
+      For Tablet Devices
+------------------- */
+@media only screen and (min-width: 689px) and (max-width: 992px)
+ {
+   header{
+      margin-bottom: 0px;
+   }
+   .top-banner{
+      width: 80%;
+   }
+   .container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+   }
+   .container-left{
+      width: 100%;
+   }
+   .left-contain{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 10px;
+      justify-content: center;
+      background-color: #ffff;
+   }
+   .left-contain a{
+      text-decoration: none;
+      background-color: white;
+      color: #161616;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      text-align: center;
+      font-size: 20px;
+      padding: 5px;
+      border: 1px solid #999797;
+   }
+   .container-right{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 24px;
+      width: 100%;
+   }
+   
+   .footer-info{
+      display: flex;
+      flex-direction: row;
+   }
+}
+
+ /*-----------
+          For Destop
+   ---------------- */
+ @media only screen and (min-width: 993px) and (max-width: 1024px) {
+      .view-button{
+         display: none;
+      }
+   }
