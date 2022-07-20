@@ -45,6 +45,11 @@ body{
     text-decoration: none;
     border-radius: 5px;
  }
+ /*---------------
+          Header Section Style End
+   ------------------ */
+
+
  /*------------------- 
          Main Section style 
  -------------------*/
@@ -133,6 +138,9 @@ body{
     font-size: 16px;
     color: #161616B2;
  }
+ /*---------------
+          Main Section Style End
+   ------------------ */
 
  /*-------------
        View Button style
@@ -149,6 +157,10 @@ body{
    padding: 12px 29px;
    background-color: #DD0000;
 }
+/*---------------
+       View Button Section Style End
+   ------------------ */
+
 
  /*-----------
          Footer style 
@@ -188,6 +200,12 @@ body{
     border-radius: 50%;
     padding: 10px;
  }
+
+ /*---------------
+          Footer Section Style End
+   ------------------ */
+
+   
  /*-------------------
        Media Queries style 
  -------------------------*/
@@ -297,12 +315,22 @@ body{
 ------------------- */
 @media only screen and (min-width: 689px) and (max-width: 992px)
  {
+   /*---------------
+          Header Section Style
+   ------------------ */
    header{
       margin-bottom: 0px;
    }
    .top-banner{
       width: 80%;
    }
+   /*---------------
+          Header Section Style End
+   ------------------ */
+
+   /*---------------
+          Main Section Style
+   ------------------ */
    .container{
       display: flex;
       flex-direction: column;
@@ -337,17 +365,34 @@ body{
       width: 100%;
    }
    
+   /*---------------
+          Main Section Style End
+   ------------------ */
+
+/*---------------
+          Footer Section Style
+   ------------------ */
    .footer-info{
       display: flex;
       flex-direction: row;
    }
+/*---------------
+          Footer Section Style End
+   ------------------ */
 }
 
  /*-----------
           For Desktop
    ---------------- */
- @media only screen and (min-width: 993px) and (max-width: 1424px) {
+ @media only screen and (min-width: 993px) and (max-width: 1424px)
+  {
+   /*---------------
+          View Button Section Style
+   ------------------ */
       .view-button{
          display: none;
       }
+   /*---------------
+          View Button Section Style End
+   ------------------ */   
    }
