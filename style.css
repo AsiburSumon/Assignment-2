@@ -109,7 +109,6 @@ body{
     height: 362px;
  }
  .right-img{
-    width: 312px;
     height: 175px;
     margin-bottom: 15px;
  }
@@ -124,7 +123,6 @@ body{
  }
  .right-contain h1{
     font-size: 18px;
-    font-weight: 600;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 10px;
@@ -383,7 +381,7 @@ body{
  /*-----------
           For Desktop
    ---------------- */
- @media only screen and (min-width: 992px) and (max-width: 1424px) 
+ @media only screen and (min-width: 992px) and (max-width: 1420px) 
  {     
    /*---------------
           View Button Style
