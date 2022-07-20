@@ -300,11 +300,12 @@ body{
       display: flex;
       flex-direction: column;
    }
+   .footer-info{
+      display: flex;
+      flex-direction: column;
+   }
 }
-.footer-info{
-   display: flex;
-   flex-direction: column;
-}
+
 /* Footer Section End */
 
 
