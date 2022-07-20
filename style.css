@@ -45,6 +45,8 @@ body{
     text-decoration: none;
     border-radius: 5px;
  }
+
+
  /*------------------- 
          Main Section style 
  -------------------*/
@@ -58,6 +60,7 @@ body{
     display: flex;
     column-gap: 20px;
  }
+
  /*-----------
          Left Side style
  -------------------- */
@@ -89,6 +92,7 @@ body{
     background-color: #DD0000;
     color: #ffff;
  }
+
  /*------------
          Right Side style
  -------------------- */
@@ -135,6 +139,10 @@ body{
     font-size: 16px;
     color: #161616B2;
  }
+/* --------
+      Main Section End
+------------ */
+
 
  /*-------------
        View Button style
@@ -190,6 +198,8 @@ body{
     border-radius: 50%;
     padding: 10px;
  }
+
+
  /*-------------------
        Media Queries style 
  -------------------------*/
@@ -276,10 +286,16 @@ body{
    }
 
    /* Main Section End */
-
+   
+   /*----------
+          View Button Style 
+   -----------------*/
    .view-button{
       display: none;
    }
+      /*----------
+          View Button Style End 
+   -----------------*/
 
    /* Footerr Section Start */
    footer{
@@ -299,12 +315,22 @@ body{
 ------------------- */
 @media only screen and (min-width: 689px) and (max-width: 992px)
  {
+   /*---------------
+          Header Section Style
+   ------------------ */
    header{
       margin-bottom: 0px;
    }
    .top-banner{
       width: 80%;
    }
+   /*----------------
+          Header Section Style End 
+   ---------------------*/
+
+   /*---------------
+          Main Section Style
+   ------------------ */
    .container{
       display: flex;
       flex-direction: column;
@@ -338,17 +364,30 @@ body{
       row-gap: 24px;
       width: 100%;
    }
-   
+   /*---------------
+          Main Section Style End
+   ------------------ */
+
+   /*---------------
+          Footer Section Style
+   ------------------ */
    .footer-info{
       display: flex;
       flex-direction: row;
    }
+   /*---------------
+          Footer Section Style End
+   ------------------ */
 }
 
  /*-----------
           For Desktop
    ---------------- */
- @media only screen and (min-width: 992px) and (max-width: 1424px) {
+ @media only screen and (min-width: 992px) and (max-width: 1424px) 
+ {     
+   /*---------------
+          View Button Style
+   ------------------ */
       .view-button{
          display: none;
       }
