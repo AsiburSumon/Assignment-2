@@ -235,6 +235,9 @@ body{
       margin-top: 20px;
       margin-left: 35px;
    }
+   .banner-logo img{
+      height: 280px;
+   }
 
    /* Header Section End */
 
@@ -341,9 +344,9 @@ body{
 }
 
  /*-----------
-          For Destop
+          For Desktop
    ---------------- */
- @media only screen and (min-width: 993px) and (max-width: 1024px) {
+ @media only screen and (min-width: 993px) and (max-width: 1424px) {
       .view-button{
          display: none;
       }
